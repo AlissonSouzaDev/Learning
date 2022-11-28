@@ -20,6 +20,7 @@ public class Main {
 		System.out.printf("%.4f%n", x);
 		
 		Locale.setDefault(Locale.US);
+		
 		System.out.printf("%.2f%n", x);
 		System.out.printf("%.4f%n", x);
 		
@@ -31,8 +32,6 @@ public class Main {
 		double wallet = 4000.0;
 		
 		System.out.printf("%s have %d years and earns $ %.2f%n", name, age, wallet);
-		
-		// %s = string; %d = integer; %f = floating-point number; %n = line spacing.
 
 	}
 
