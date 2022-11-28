@@ -2,17 +2,18 @@ package javaBasico;
 
 import java.util.Locale;
 
-public class Main23 {
+public class Main {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Olá mundo!");
-		System.out.println("Bom dia!");
-		System.out.print("Boa tarde, ");
-		System.out.println("Tudo bem?");
+		System.out.println("Hello World!");
+		System.out.println("Good Morning!");
+		System.out.print("Good Afternoon, ");
+		System.out.println("How are you?");
 		
 		int y = 32;
 		double x = 10.35784;
+		
 		System.out.println(y);
 		System.out.println(x);
 		System.out.printf("%.2f%n", x);
@@ -22,16 +23,16 @@ public class Main23 {
 		System.out.printf("%.2f%n", x);
 		System.out.printf("%.4f%n", x);
 		
-		System.out.println("RESULTADO = " + y + " METROS");
-		System.out.printf("RESULTADO = %.2f metros%n", x);
+		System.out.println("RESULT = " + y + " METERS");
+		System.out.printf("RESULT = %.2f meters%n", x);
 		
-		String nome = "Maria";
-		int idade = 31;
-		double renda = 4000.0;
+		String name = "Maria";
+		int age = 31;
+		double wallet = 4000.0;
 		
-		System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
+		System.out.printf("%s have %d years and earns $ %.2f%n", name, age, wallet);
 		
-		// %s = texto; %d = número inteiro; %f = número com ponto flutuante; %n = espaçamento de linha.
+		// %s = string; %d = integer; %f = floating-point number; %n = line spacing.
 
 	}
 
