@@ -1,4 +1,4 @@
-(EN) Notes:
+(EN - US) Notes:
 
 * Good practice: Always indicate the type of number if the expression is floating-point (not integer).
 * For a double use: .0
@@ -17,7 +17,7 @@
 
 * You will notice that when you try to just assign the value of z to v, the compiler will give an error, to solve this you just need to do the casting with int, substituting above.
 
-(PT-BR) Observações:
+(PT - BR) Observações:
 
 * Boas práticas: Indicar sempre o tipo de número se a expressão for ponto flutuante (não número inteiro).
 * Para double use: .0

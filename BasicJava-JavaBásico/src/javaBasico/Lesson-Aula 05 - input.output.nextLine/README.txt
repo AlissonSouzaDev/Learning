@@ -1,4 +1,4 @@
-(EN) Notes:
+(EN - US) Notes:
 
 * To print a nextInt and a subsequent nextLine together without giving an error in line spacing, you must do as follows:
 
@@ -13,7 +13,7 @@
 
 * The addition of the nextLine between them prevents the IDE from absorbing a line since pressing 'Enter' on the variable data 'x', without that nextLine, would consider the 'g1' as a space and that would be the String value. So, it is necessary to have this loose nextLine in the middle to prevent this problem from happening.
 
-(PT-BR) Observações:
+(PT - BR) Observações:
 
 * Para imprimir conjuntamente um nextInt e um nextLine subsequentes sem dar erro no espaçamento entre linhas, deve-se fazer da seguinte forma:
 
