@@ -1,4 +1,4 @@
-(US - EN) Question Statement: 
+(EN - US) Question Statement: 
 
 * Make a program that reads the number of an employee, the number of hours he works, the amount he receives per hour and calculates the employee's salary. Next, show the number and the salary of the employee, to two decimal places.
 

@@ -8,13 +8,19 @@ public class Main {
 
 		Scanner sc = new Scanner(System.in);
 
-		int x, y, sum;
-		
-		x = sc.nextInt();
-		y = sc.nextInt();
-		sum = x + y;
-		
-		System.out.println("Sum = " + sum);
+		int A;
+
+		A = sc.nextInt();
+
+		if (A % 2 == 0) {
+			
+			System.out.println("EVEN");
+			
+		} else {
+			
+			System.out.println("ODD");
+			
+		}
 
 		sc.close();
 

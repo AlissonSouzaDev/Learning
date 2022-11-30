@@ -1,4 +1,4 @@
-(US - EN) Question Statement: 
+(EN - US) Question Statement: 
 
 * Make a program to read the code of a part 1, the number of parts 1, the unit value of each part 1, the code of a part 2, the number of parts 2 and the unit value of each part 2. Calculate and display the amount to be paid.
 

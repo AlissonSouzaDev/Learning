@@ -11,10 +11,12 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		
 		double radius, pi, area, squaredRadius;
+		
 		radius = sc.nextDouble();
 		pi = 3.14159;
 		squaredRadius = Math.pow(radius, 2.0);
 		area = pi * squaredRadius;
+		
 		System.out.printf("A=%.4f%n", area);
 		
 		sc.close();

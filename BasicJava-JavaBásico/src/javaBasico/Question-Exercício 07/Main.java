@@ -11,6 +11,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		
 		double width, length, meter, area, price;
+		
 		width = sc.nextDouble();
 		length = sc.nextDouble();
 		meter = sc.nextDouble();

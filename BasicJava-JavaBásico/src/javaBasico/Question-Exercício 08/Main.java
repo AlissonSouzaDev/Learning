@@ -8,13 +8,17 @@ public class Main {
 
 		Scanner sc = new Scanner(System.in);
 
-		int x, y, sum;
+		int A = sc.nextInt();
 		
-		x = sc.nextInt();
-		y = sc.nextInt();
-		sum = x + y;
-		
-		System.out.println("Sum = " + sum);
+		if (A < 0) {
+			
+			System.out.println("NEGATIVE");
+			
+		} else {
+			
+			System.out.println("NON-NEGATIVE");
+			
+		}
 
 		sc.close();
 

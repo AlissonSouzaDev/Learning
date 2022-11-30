@@ -1,4 +1,4 @@
-(US - EN) Question Statement: 
+(EN - US) Question Statement: 
 
 * Make a program that reads three double-precision floating-point values: A, B and C. Then calculate and show:
 
