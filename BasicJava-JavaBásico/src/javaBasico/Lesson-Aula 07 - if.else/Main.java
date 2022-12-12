@@ -14,11 +14,17 @@ public class Main {
 		hour = sc.nextInt();
 
 		if (hour < 12) {
+			
 			System.out.println("Good Morning!");
+			
 		} else if (hour < 18) {
+			
 			System.out.println("Good Afternoon!");
+			
 		} else {
+			
 			System.out.println("Good Night!");
+			
 		}
 
 		sc.close();
