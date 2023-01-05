@@ -26,7 +26,7 @@ public class Main {
 		
 		int aux;
 		
-		if (a > b && b > c) {
+		if (a > b && a > c) {
 			
 			aux = a;
 			
