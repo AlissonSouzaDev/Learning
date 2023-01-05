@@ -9,28 +9,24 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 
 		int N = sc.nextInt();
-		int factorial = 1;
+		int a = N;
 
 		for (int i = 1; i <= N; i++) {
+			
+			int divisor = N / a;
 
-			factorial *= i;
+			if (N % a == 0) {
+				
+				System.out.println(divisor);
+				
+			}
 
+			a--;
+			
 		}
 
-		if (N == 0) {
-
-			N = factorial;
-
-			System.out.println(N);
-
-		} else {
-
-			System.out.println(factorial);
-
-		}
-		
 		sc.close();
 
 	}
-	
+
 }

@@ -40,7 +40,7 @@ Entrada:                    / Entrada:                    / Entrada:
 Saída:                      / Saída:                      / Saída:
 THE MATCH LASTED 10 HOURS   / THE MATCH LASTED 24 HOURS   / THE MATCH LASTED 14 HOURS
 
-* Correção do exercício/Outro método de solução:
+* Correção do exercício / Outro método de solução:
 
 Scanner sc = new Scanner(System.in);
 
