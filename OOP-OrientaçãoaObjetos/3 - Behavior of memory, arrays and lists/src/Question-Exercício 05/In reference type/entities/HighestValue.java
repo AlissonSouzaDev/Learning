@@ -4,12 +4,11 @@ import java.util.Scanner;
 
 public class HighestValue {
 	
-	private double[] vect;
-	
 	public Scanner sc = new Scanner(System.in);
-
-	public double hValue = 0.0;
+	
 	public int n;
+	private double[] vect;	
+	public double hValue = 0.0;
 	public int position = 0;
 
 	public HighestValue() {
