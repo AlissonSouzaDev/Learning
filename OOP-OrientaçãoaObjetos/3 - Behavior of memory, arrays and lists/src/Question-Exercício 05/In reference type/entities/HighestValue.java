@@ -21,12 +21,6 @@ public class HighestValue {
 		
 	}
 
-	public void setVect(double[] vect, double parameter) {
-		
-		vectValueInserter(parameter);
-		
-	}
-
 	public void vectStarter() {
 		
 		n = sc.nextInt();
