@@ -18,9 +18,14 @@ public class BelowAverage {
 		
 	}
 
+	public static void vectValueInserter(int parameter) {
+		
+		vect[parameter] = sc.nextDouble();
+		
+	}
+	
 	public static void vectSumOperator(int parameter) {
 			
-		vect[parameter] = sc.nextDouble();
 		sum += vect[parameter];
 				
 	}

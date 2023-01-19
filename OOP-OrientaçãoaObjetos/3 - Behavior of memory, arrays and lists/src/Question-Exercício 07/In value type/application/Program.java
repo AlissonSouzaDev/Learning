@@ -16,6 +16,7 @@ public class Program {
 		for (int i = 0; i < BelowAverage.vect.length; i++) {
 			
 			System.out.print("Enter a number:" + " ");
+			BelowAverage.vectValueInserter(i);
 			BelowAverage.vectSumOperator(i);
 			
 		}

@@ -17,6 +17,7 @@ public class Program {
 		for (int i = 0; i < execute.getVect().length; i++) {
 			
 			System.out.print("Enter a number:" + " ");
+			execute.vectValueInserter(i);
 			execute.vectSumOperator(i);
 			
 		}
