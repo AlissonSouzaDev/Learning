@@ -59,4 +59,9 @@ public class UnderAge {
 		
 	}
 	
+	public static void reset() {
+		
+		underAge = 0;
+		
+	}
 }

@@ -54,6 +54,9 @@ public class Program {
 			
 		}
 		
+		Sum.vectResultReset();
+		UnderAge.reset();
+		
 		execute.sc.close();
 
 	}

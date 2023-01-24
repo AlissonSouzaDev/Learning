@@ -29,13 +29,13 @@ public class Sum {
 		
 	}
 	
-	public static void sumReset() {
+	public static void resultReset() {
 		
 		sumResult = 0.0;
 		
 	}
 	
-	public static void vectSumReset() {
+	public static void vectResultReset() {
 		
 		vectSumResult = 0.0;
 		
