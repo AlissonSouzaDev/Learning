@@ -3,7 +3,6 @@ package util;
 public class EvenNumbers {
 
 	private static int pairTotal;
-	private static int vectPairTotal;
 
 	public static int getPairTotal() {
 		
@@ -23,33 +22,21 @@ public class EvenNumbers {
 		
 	}
 	
-	public static int getVectPairTotal() {
-		
-		return vectPairTotal;
-		
-	}
-	
-	public static void setVectPairTotal(int[] parameterA, int parameterB) {
+	public static void setPairTotal(int[] parameterA, int parameterB) {
 		
 		if (parameterA[parameterB] % 2 == 0) {
 			
 			System.out.print(parameterA[parameterB] + " ");
 			
-			vectPairTotal++;
+			pairTotal++;
 			
 		}
 		
 	}
 	
-	public static void resultReset() {
+	public static void reset() {
 		
 		pairTotal = 0;
-		
-	}
-	
-	public static void vectResultReset() {
-		
-		vectPairTotal = 0;
 		
 	}
 	

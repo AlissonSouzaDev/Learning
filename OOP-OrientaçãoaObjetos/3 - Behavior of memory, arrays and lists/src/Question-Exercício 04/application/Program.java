@@ -23,15 +23,15 @@ public class Program {
 		System.out.println("EVEN NUMBERS:" + " ");
 		for (int i = 0; i < execute.getVectNumbers().length; i++) {
 			
-			EvenNumbers.setVectPairTotal(execute.getVectNumbers(), i);
+			EvenNumbers.setPairTotal(execute.getVectNumbers(), i);
 			
 		}
 
 		execute.skipEmptySpace();
 
-		System.out.print("QUANTITY OF EVEN NUMBERS =" + " " + EvenNumbers.getVectPairTotal());
+		System.out.print("QUANTITY OF EVEN NUMBERS =" + " " + EvenNumbers.getPairTotal());
 
-		EvenNumbers.vectResultReset();
+		EvenNumbers.reset();
 		
 		execute.sc.close();
 
