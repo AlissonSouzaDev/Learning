@@ -3,6 +3,8 @@ package application;
 import java.util.Locale;
 
 import entities.PeerAverage;
+import util.Average;
+import util.Sum;
 
 public class Program {
 
@@ -14,15 +16,22 @@ public class Program {
 		System.out.print("How many elements will the vector have?" + " ");
 		execute.vectStarter();
 
-		for (int i = 0; i < execute.getVect().length; i++) {
+		for (int i = 0; i < execute.getVectNumbers().length; i++) {
 			
 			System.out.print("Enter a number:" + " ");
 			
-			execute.vectValueInserter(i);
-			execute.vectSumPeerAverageOperator(i);
+			execute.setVectNumbers(i);
+			Average.setPeerAverage(execute.getVectNumbers(), i);
+			
 		}
 
-		execute.averageOfEvenNumbersPrinter(execute.vectPeerAverageOperator());
+		Average.setAverageOfPeerAverage(Sum.getSumResult());
+		Average.peerAverageElements(Average.getAverage());
+		
+		Sum.reset();
+		Average.reset();
+		
+		execute.sc.close();
 
 	}
 
