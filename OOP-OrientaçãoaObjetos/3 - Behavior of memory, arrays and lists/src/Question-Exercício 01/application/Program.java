@@ -1,6 +1,7 @@
 package application;
 
 import entities.Negative;
+import util.NegativeNumbers;
 
 public class Program {
 
@@ -14,14 +15,14 @@ public class Program {
 		for (int i = 0; i < execute.getVectNumbers().length; i++) {
 			
 			System.out.print("Enter a number:" + " ");
-			execute.vectValueInserter(i);
+			execute.setVectNumbers(i);
 			
 		}
 
 		System.out.println("NEGATIVE NUMBERS:" + " ");
 		for (int i = 0; i < execute.getVectNumbers().length; i++) {
 			
-			execute.negativeNumbers(i);
+			NegativeNumbers.vectOperator(execute.getVectNumbers(), i);
 			
 		}
 		

@@ -18,27 +18,17 @@ public class Negative {
 		return vectNumbers;
 		
 	}
+	
+	public void setVectNumbers(int parameter) {
+		
+		vectNumbers[parameter] = sc.nextInt();
+		
+	}
 
 	public void vectStarter() {
 		
 		n = sc.nextInt();
 		vectNumbers = new int[n];
-		
-	}
-	
-	public void vectValueInserter(int parameter) {
-		
-		vectNumbers[parameter] = sc.nextInt();
-		
-	}
-	
-	public void negativeNumbers(int parameter) {
-		
-		if (vectNumbers[parameter] < 0) {
-			
-			System.out.println(vectNumbers[parameter]);
-			
-		}
 		
 	}
 	
