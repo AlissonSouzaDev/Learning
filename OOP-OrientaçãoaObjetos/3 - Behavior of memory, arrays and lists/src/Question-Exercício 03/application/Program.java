@@ -34,11 +34,11 @@ public class Program {
 		System.out.println();
 		for (int i = 0; i < execute.getVectHeight().length; i++) {
 			
-			Sum.setVectSumResult(execute.getVectHeight(), i);
+			Sum.setSumResult(execute.getVectHeight(), i);
 			
 		}
 		
-		System.out.printf("Medium height: %.2f%n", Average.operation(Sum.getVectSumResult(), execute.getVectHeight().length));
+		System.out.printf("Medium height: %.2f%n", Average.operation(Sum.getSumResult(), execute.getVectHeight().length));
 
 		for (int i = 0; i < execute.getVectAge().length; i++) {
 			
@@ -54,7 +54,7 @@ public class Program {
 			
 		}
 		
-		Sum.vectResultReset();
+		Sum.reset();
 		UnderAge.reset();
 		
 		execute.sc.close();

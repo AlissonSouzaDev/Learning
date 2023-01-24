@@ -3,7 +3,6 @@ package util;
 public class Sum {
 	
 	private static double sumResult;
-	private static double vectSumResult;
 	
 	public static double getSumResult() {
 		
@@ -16,28 +15,16 @@ public class Sum {
 		sumResult += parameter;
 		
 	}
-	
-	public static double getVectSumResult() {
-		
-		return vectSumResult;
-		
-	}
 
-	public static void setVectSumResult(double[] vect, int parameter) {
+	public static void setSumResult(double[] vect, int parameter) {
 		
-		vectSumResult += vect[parameter];
+		sumResult += vect[parameter];
 		
 	}
 	
-	public static void resultReset() {
+	public static void reset() {
 		
 		sumResult = 0.0;
-		
-	}
-	
-	public static void vectResultReset() {
-		
-		vectSumResult = 0.0;
 		
 	}
 	

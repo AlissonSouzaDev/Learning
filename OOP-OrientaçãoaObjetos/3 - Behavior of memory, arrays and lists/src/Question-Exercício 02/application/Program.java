@@ -34,14 +34,14 @@ public class Program {
 		System.out.println();
 		for (int i = 0; i < execute.getVectNumbers().length; i++) {
 			
-			Sum.setVectSumResult(execute.getVectNumbers(), i);
+			Sum.setSumResult(execute.getVectNumbers(), i);
 			
 		}
 
-		System.out.printf("SUM = %.2f%n", Sum.getVectSumResult());	
-		System.out.printf("AVERAGE = %.2f%n", Average.operation(Sum.getVectSumResult(), execute.getVectNumbers().length));
+		System.out.printf("SUM = %.2f%n", Sum.getSumResult());	
+		System.out.printf("AVERAGE = %.2f%n", Average.operation(Sum.getSumResult(), execute.getVectNumbers().length));
 
-		Sum.vectResultReset();
+		Sum.reset();
 		
 		execute.sc.close();
 		
