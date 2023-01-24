@@ -11,19 +11,19 @@ public class Sum {
 		
 	}
 
+	public static void setSumResult(int parameter) {
+		
+		sumResult += parameter;
+		
+	}
+	
 	public static double getVectSumResult() {
 		
 		return vectSumResult;
 		
 	}
 
-	public static void operation(int parameter) {
-		
-		sumResult += parameter;
-		
-	}
-
-	public static void vectOperation(double[] vect, int parameter) {
+	public static void setVectSumResult(double[] vect, int parameter) {
 		
 		vectSumResult += vect[parameter];
 		

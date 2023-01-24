@@ -34,7 +34,7 @@ public class Program {
 		System.out.println();
 		for (int i = 0; i < execute.getVectNumbers().length; i++) {
 			
-			Sum.vectOperation(execute.getVectNumbers(), i);
+			Sum.setVectSumResult(execute.getVectNumbers(), i);
 			
 		}
 
