@@ -2,7 +2,7 @@ package application;
 
 import java.util.Locale;
 
-import entities.SumVect;
+import entities.SumVectA;
 import util.Average;
 import util.Sum;
 
@@ -11,7 +11,7 @@ public class Program {
 	public static void main(String[] args) {
 
 		Locale.setDefault(Locale.US);
-		SumVect execute = new SumVect();
+		SumVectA execute = new SumVectA();
 
 		System.out.print("How many numbers will you enter?" + " ");
 		execute.vectStarter();
@@ -39,9 +39,11 @@ public class Program {
 		}
 
 		System.out.printf("SUM = %.2f%n", Sum.getSumResult());	
-		System.out.printf("AVERAGE = %.2f%n", Average.operation(Sum.getSumResult(), execute.getVectNumbers().length));
+		Average.setAverage(Sum.getSumResult(), execute.getVectNumbers().length);
+		System.out.printf("AVERAGE = %.2f%n", Average.getAverage());
 
 		Sum.reset();
+		Average.reset();
 		
 		execute.sc.close();
 		

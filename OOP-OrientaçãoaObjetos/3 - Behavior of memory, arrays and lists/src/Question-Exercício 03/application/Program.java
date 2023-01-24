@@ -38,7 +38,8 @@ public class Program {
 			
 		}
 		
-		System.out.printf("Medium height: %.2f%n", Average.operation(Sum.getSumResult(), execute.getVectHeight().length));
+		Average.setAverage(Sum.getSumResult(), execute.getVectHeight().length);
+		System.out.printf("Medium height: %.2f%n", Average.getAverage());
 
 		for (int i = 0; i < execute.getVectAge().length; i++) {
 			
@@ -55,6 +56,7 @@ public class Program {
 		}
 		
 		Sum.reset();
+		Average.reset();
 		UnderAge.reset();
 		
 		execute.sc.close();
