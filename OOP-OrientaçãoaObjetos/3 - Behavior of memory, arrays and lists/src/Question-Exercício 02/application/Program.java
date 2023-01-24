@@ -19,7 +19,7 @@ public class Program {
 		for (int i = 0; i < execute.getVectNumbers().length; i++) {
 			
 			System.out.print("Enter a number:" + " ");
-			execute.vectValueInserter(i);
+			execute.setVectNumbers(i);
 			
 		}
 
@@ -38,9 +38,11 @@ public class Program {
 			
 		}
 
-		System.out.printf("SUM = %.2f%n", Sum.vectSumResult);	
-		System.out.printf("AVERAGE = %.2f%n", Average.operation(Sum.vectSumResult, execute.getVectNumbers().length));
+		System.out.printf("SUM = %.2f%n", Sum.getVectSumResult());	
+		System.out.printf("AVERAGE = %.2f%n", Average.operation(Sum.getVectSumResult(), execute.getVectNumbers().length));
 
+		Sum.vectResultReset();
+		
 		execute.sc.close();
 		
 	}

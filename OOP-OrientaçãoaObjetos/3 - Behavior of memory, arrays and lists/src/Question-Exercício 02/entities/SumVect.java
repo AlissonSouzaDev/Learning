@@ -8,7 +8,6 @@ public class SumVect {
 	
 	private int n;
 	private double[] vectNumbers;
-	private static double sumResult = 0.0;
 
 	public SumVect() {
 		
@@ -20,22 +19,16 @@ public class SumVect {
 		
 	}
 	
-	public static double getSumResult() {
+	public void setVectNumbers(int parameter) {
 		
-		return sumResult;
+		vectNumbers[parameter] = sc.nextDouble();
 		
 	}
-
+	
 	public void vectStarter() {
 		
 		n = sc.nextInt();
 		vectNumbers = new double[n];
-		
-	}
-	
-	public void vectValueInserter(int parameter) {
-		
-		vectNumbers[parameter] = sc.nextDouble();
 		
 	}
 	
@@ -45,10 +38,4 @@ public class SumVect {
 		
 	}
 
-	public void vectValueAdder(int parameter) {
-		
-		sumResult += vectNumbers[parameter];
-		
-	}
-	
 }
