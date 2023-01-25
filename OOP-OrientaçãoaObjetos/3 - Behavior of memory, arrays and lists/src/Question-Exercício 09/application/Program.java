@@ -25,6 +25,10 @@ public class Program {
 
 		System.out.print("OLDER PERSON:" + " " + OlderPerson.getOlderPerson());
 
+		OlderPerson.reset();
+		
+		execute.sc.close();
+		
 	}
 	
 }

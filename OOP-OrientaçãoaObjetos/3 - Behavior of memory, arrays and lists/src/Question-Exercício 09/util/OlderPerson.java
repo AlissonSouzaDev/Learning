@@ -21,5 +21,12 @@ public class OlderPerson {
 		}
 		
 	}
+	
+	public static void reset() {
+		
+		olderPerson = null;
+		olderAge = 0;
+		
+	}
 
 }
