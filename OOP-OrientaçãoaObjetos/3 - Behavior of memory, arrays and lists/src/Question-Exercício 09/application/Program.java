@@ -1,6 +1,7 @@
 package application;
 
 import entities.Older;
+import util.OlderPerson;
 
 public class Program {
 
@@ -14,14 +15,15 @@ public class Program {
 		for (int i = 0; i < execute.getVectAge().length; i++) {
 			
 			System.out.println("Person" + " " + (i + 1) + " " + "data:");
-			
-			execute.vectNameValueInserter(i);
-			execute.vectAgeValueInserter(i);
-			execute.olderPersonDefiner(i);
+			System.out.print("Name:" + " ");
+			execute.setVectName(i);
+			System.out.print("Age:" + " ");
+			execute.setVectAge(i);
+			OlderPerson.setOlderPerson(execute.getVectAge(), execute.getVectName(), i);
 			
 		}
 
-		System.out.print("OLDER PERSON:" + " " + execute.getOlderPerson());
+		System.out.print("OLDER PERSON:" + " " + OlderPerson.getOlderPerson());
 
 	}
 	
