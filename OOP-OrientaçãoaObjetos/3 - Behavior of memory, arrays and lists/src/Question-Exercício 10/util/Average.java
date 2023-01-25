@@ -14,6 +14,18 @@ public class Average {
 		
 	}
 	
+	public static double getAverage(double sum) {
+		
+		return average = sum / average;
+				
+	}
+	
+	public static void setAverage() {
+		
+		average++;
+				
+	}
+	
 	public static void setAverage(double sum, double value) {
 		
 		average = sum / value;
@@ -89,6 +101,11 @@ public class Average {
 		
 		average = 0;
 		peerAverage = 0;
+		
+	}
+	
+	public static void vectReset() {
+		
 		Arrays.fill(vectAverage, 0);
 		
 	}

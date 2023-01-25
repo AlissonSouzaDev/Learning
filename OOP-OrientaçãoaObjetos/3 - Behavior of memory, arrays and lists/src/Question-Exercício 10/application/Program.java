@@ -34,7 +34,7 @@ public class Program {
 		}
 
 		Sum.reset();
-		Average.reset();
+		Average.vectReset();
 		
 		execute.sc.close();
 		
