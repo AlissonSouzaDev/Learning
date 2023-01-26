@@ -26,11 +26,7 @@ public class Program {
 			execute.setVectSalary(i);
 			
 		}
-		for (Integer obj : execute.getId()) {
-			
-			System.out.println(obj);
-			
-		}
+	
 		System.out.print("Enter the employee id that will have salary increase :" + " ");
 		SalaryIncreaser.setSalaryIncrease(execute.getId(), execute.getVectSalary());
 		
