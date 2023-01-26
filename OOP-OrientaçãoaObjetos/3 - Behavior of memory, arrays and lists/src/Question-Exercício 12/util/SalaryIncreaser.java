@@ -43,4 +43,11 @@ public class SalaryIncreaser {
 		
 	}
 
+	public static void reset() {
+		
+		employeeId = 0;
+		salary = 0.0;
+		
+	}
+	
 }

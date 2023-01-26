@@ -41,6 +41,9 @@ public class Program {
 			
 		}
 		
+		SalaryIncreaser.reset();
+		execute.sc.close();
+		
 	}
 	
 }
